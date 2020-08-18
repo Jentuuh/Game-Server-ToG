@@ -1,0 +1,13 @@
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\bin\Debug\netcoreapp3.1\TowerOfGodServer.exe
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\bin\Debug\netcoreapp3.1\TowerOfGodServer.deps.json
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\bin\Debug\netcoreapp3.1\TowerOfGodServer.runtimeconfig.json
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\bin\Debug\netcoreapp3.1\TowerOfGodServer.runtimeconfig.dev.json
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\bin\Debug\netcoreapp3.1\TowerOfGodServer.dll
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\bin\Debug\netcoreapp3.1\TowerOfGodServer.pdb
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.csprojAssemblyReference.cache
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.AssemblyInfoInputs.cache
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.AssemblyInfo.cs
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.csproj.CoreCompileInputs.cache
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.dll
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.pdb
+C:\Users\jente\Documents\VS projects\TowerOfGod\TowerOfGodServer\TowerOfGodServer\obj\Debug\netcoreapp3.1\TowerOfGodServer.genruntimeconfig.cache
