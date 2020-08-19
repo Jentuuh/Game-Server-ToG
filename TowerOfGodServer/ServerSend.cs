@@ -4,11 +4,13 @@ using System.Text;
 
 namespace TowerOfGodServer
 {
-     /*
-     * @author Jente Vandersanden
-     * 18/08/2020
-     * Class that handles the server's outgoing data stream.
-     */
+    /*
+    * @author Jente Vandersanden
+    * 18/08/2020
+    * Class that handles the server's outgoing data stream.
+    * 
+    * Credits to Tom Weiland's tutorial
+    */
     class ServerSend
     {
         private static void SendTCPData(int receiving_client, Packet packet)

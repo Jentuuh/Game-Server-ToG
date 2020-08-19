@@ -6,6 +6,8 @@ using System.Text;
  * @author Jente Vandersanden
  * 18/08/2020
  * Packet class to convert data to bytes for data transferring over the network.
+ * 
+ * Credits to Tom Weiland's tutorial
  */
 namespace TowerOfGodServer
 {

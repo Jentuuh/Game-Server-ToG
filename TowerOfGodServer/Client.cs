@@ -6,12 +6,14 @@ using System.Net.Sockets;
 
 namespace TowerOfGodServer
 {
-     /*
-     * @author Jente Vandersanden
-     * 18/08/2020
-     * Class that will represent the client and handle its connection to the
-     * server and the receiving of data from the server.
-     */
+    /*
+    * @author Jente Vandersanden
+    * 18/08/2020
+    * Class that will represent the client and handle its connection to the
+    * server and the receiving of data from the server.
+    * 
+    * Credits to Tom Weiland's tutorial
+    */
     class Client
     {
         private static readonly int DATA_BUFFER_SIZE = 4096;

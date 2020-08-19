@@ -4,11 +4,13 @@ using System.Text;
 
 namespace TowerOfGodServer
 {
-     /*
-     * @author Jente Vandersanden
-     * 18/08/2020
-     * Class that is a collection of constant definitions
-     */
+    /*
+    * @author Jente Vandersanden
+    * 18/08/2020
+    * Class that is a collection of constant definitions
+    * 
+    * Credits to Tom Weiland's tutorial
+    */
     class CONSTANTS
     {
         public const int TICKS_PER_SEC = 30;

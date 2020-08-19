@@ -5,6 +5,8 @@ using System.Collections.Generic;
 /*
  * Class that handles possible multithreading. 
  * Currently everything's running on 1 thread.
+ * 
+ * Credits to Tom Weiland's tutorial
  */
 public class ThreadManager
 {

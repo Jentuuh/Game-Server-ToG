@@ -3,7 +3,13 @@ using System.Threading;
 
 namespace TowerOfGodServer
 {
-
+      /*
+      * @author Jente Vandersanden
+      * 18/08/2020
+      * Main control class
+      * 
+      * Credits to Tom Weiland's tutorial
+      */
     class Program
     {
         private static bool isRunning = false;

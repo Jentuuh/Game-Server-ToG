@@ -8,11 +8,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TowerOfGodServer
 {
-     /*
-     * @author Jente Vandersanden
-     * 17/08/2020
-     * Class that represents the server and its initialization using TCP.
-     */
+    /*
+    * @author Jente Vandersanden
+    * 17/08/2020
+    * Class that represents the server and its initialization using TCP.
+    *
+    * Credits to Tom Weiland's tutorial
+    */
     class Server
     {
         public static int m_max_players { get; private set; }
