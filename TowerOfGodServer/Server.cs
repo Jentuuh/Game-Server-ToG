@@ -8,11 +8,19 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TowerOfGodServer
 {
+     /*
+     * @author Jente Vandersanden
+     * 17/08/2020
+     * Class that represents the server and its initialization using TCP.
+     */
     class Server
     {
         public static int m_max_players { get; private set; }
         public static int m_port { get; private set; }
         public static Dictionary<int, Client> client_dictionary = new Dictionary<int, Client>();
+
+        public delegate void PacketHandler(int sendingClient, Packet packet);
+        public static Dictionary<int, PacketHandler> m_packethandlers;
 
         private static TcpListener m_tcp_listener;
 
@@ -51,12 +59,21 @@ namespace TowerOfGodServer
             Console.WriteLine($"{client.Client.RemoteEndPoint} failed to connect: Server full!");
         }
 
+        // Method that initializes the dictionaries
         private static void InitializeServerData()
         {
             for(int i = 1; i <= m_max_players; i++)
             {
                 client_dictionary.Add(i, new Client(i));
             }
+
+            m_packethandlers = new Dictionary<int, PacketHandler>()
+            {
+                // Insert all the methods with their respective packethandlers
+                { (int)ClientPackets.welcomeReceived, ServerHandle.welcomeReceived }
+            };
+
+            Console.WriteLine("Server data initialized (Client + Packet dictionaries)");
         }
     }
 }
